@@ -1,4 +1,78 @@
 
+//Get a reference to the #add-employees-btn element
+const addEmployeesBtn = document.querySelector('#add-employees-btn');
+
+ //TODO: Get user input to create and return an array of employee objects
+    
+    function collectEmployees() {
+      const employees = []; 
+
+      let addMoreEmployees = true;
+
+
+      while (addMoreEmployees) {
+
+      const firstName = prompt("Enter employee's first name:");
+      if (firstName === null) {
+          alert("First name input cancelled. Please enter a valid first name!");
+
+          continue;
+
+          }
+
+
+      const lastName = prompt ("Enter employee's last name:");    
+      if (lastName === null) {
+          alert("Last name input cancelled. Please enter a valid last name!");
+
+          continue;
+
+          }
+
+
+      let salaryInput = prompt ("Enter employee's salary:");
+      if (salaryInput === null) {
+        alert("Salary input cancelled. Please enter a valid salary!");
+
+        continue;
+
+      }
+    
+
+      let salary = parseFloat(salaryInput);    
+      if (isNaN(salary)) {
+        alert("Please enter a valid salary!");
+        
+        continue;
+        
+        }
+
+      const employee = {
+      firstName: firstName,
+      lastName: lastName,
+      salary: salary
+
+        };
+
+
+      employees.push(employee);
+
+      const continueAdding = confirm("Do you want to add another employee?");
+      if (!continueAdding) {
+
+      addMoreEmployees = false;
+
+        }
+
+
+      }    
+      return employees; 
+    
+      }
+
+
+    
+
 /*
   ====================
   STARTER CODE
