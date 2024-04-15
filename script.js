@@ -70,6 +70,25 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
     
       }
 
+// Display the average salary
+const displayAverageSalary = function(employeesArray) {
+  // TODO: Calculate and display the average salary
+
+    if(employeesArray.length === 0) {
+
+    console.log("No employees to calculate average salary!");
+    return;
+    
+    } 
+
+    const totalSalary = employeesArray.reduce((acc, employee) => {
+    return acc + employee.salary; 
+    }, 0);
+
+    const averageSalary = totalSalary / employeesArray.length; 
+    console.log(`Average salary ${averageSalary}`);
+    }
+
 
     
 
