@@ -77,8 +77,8 @@ const displayAverageSalary = function(employeesArray) {
     if(employeesArray.length === 0) {
 
     console.log("No employees to calculate average salary!");
-    return;
     
+    return;
     } 
 
     const totalSalary = employeesArray.reduce((acc, employee) => {
@@ -89,8 +89,24 @@ const displayAverageSalary = function(employeesArray) {
     console.log(`Average salary ${averageSalary}`);
     }
 
+// Select a random employee
+const getRandomEmployee = function(employeesArray) {
 
-    
+  // TODO: Select and display a random employee
+
+  if(employeesArray.length === 0) {
+      console.log("There's no random employees to select!");
+
+    return;
+    }
+
+
+const randomIndex = Math.floor(Math.random() * employeesArray.length);
+const randomEmployee = employeesArray[randomIndex];
+
+    console.log(`Random Employee: ${randomEmployee.firstName} ${randomEmployee.lastName}`)
+
+};
 
 /*
   ====================
