@@ -34,10 +34,10 @@ https://bootcampspot.instructure.com/courses/5362/external_tools/313
 The *ChatGPT 3.5* from https://chat.openai.com helped to create and inspired the code implementations for this challenge.
 
  
-## Code Source and Attribution
+### Code Source and Attribution
 
-All code implementations within this project, were inspired by external guidance.
-The JavaScript code in this project was provided by an AI assistant (Xpert Learning Assistant, ChatGPT, OpenAI). I (The author) did not independently author the code but instead i received guidance and solutions from the AI assistants.
+All code implementations within this challenge, were inspired by external guidance.
+The JavaScript code in this challenge was provided by an AI assistant (Xpert Learning Assistant, ChatGPT or OpenAI). I (The author) did not independently author the code but instead i received guidance and solutions from the AI assistants.
 
 
 
