@@ -31,7 +31,7 @@ The *Xpert Learning Assistant* from bootcampspot.instructure.com helped to under
 
 https://bootcampspot.instructure.com/courses/5362/external_tools/313
 
-The *ChatGPT 3.5* from https://chat.openai.com helped to create and inspired the code implematations from this challenge.
+The *ChatGPT 3.5* from https://chat.openai.com helped to create and inspired the code implementations for this challenge.
 
  
 ## Code Source and Attribution
